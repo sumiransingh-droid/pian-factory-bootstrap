@@ -1,0 +1,123 @@
+*{
+    font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+    
+}
+.background{
+    background-size: cover;
+}
+    
+.nav {
+    background: #6414db;
+    height: 80px;
+    font-size: 100%;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 40px;
+}
+.btn{
+    font-size: 18px;
+}
+.navimg {
+    
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    background-size: cover;
+}
+.bgtxt{
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    color: white;
+    left: 25%;
+    font-size: 150%;
+
+}
+.bgimg{
+    position: relative;
+}
+
+.nav-item a:hover {
+
+    background-color: #ffb607;
+}
+
+.cardbtn button:hover {
+    background-color: #ffb607;
+
+}
+
+.cardbtn{
+    z-index: 10; 
+    position: absolute; 
+    left: 130px; 
+    top: 260px;
+}
+
+/* .recent-proj{
+    padding-right: 1500px;
+} */
+
+
+.projtxt{
+    position: absolute;
+    z-index: 10;
+    padding-bottom:50px ;
+    top: 50%;
+    left: 30%;
+
+}
+
+.btnproj{
+
+    margin-left: 47%;
+}
+    
+.contactimg{
+    position: relative;
+}
+.contact{
+    position: absolute;
+    z-index: 10;
+    top:3400px;
+    left: 30%;
+}
+
+/* body {
+    width: 99%;
+    
+} */
+.form-control{
+    border: 0%;
+}
+
+.btncontact{
+    left: 20%;
+
+}
+li{
+    color: #ffb607;
+    font-size: 100%;
+}
+li span{
+    color: white;
+}
+
+input.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+ }
+
+ textarea.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+ }
+
+
